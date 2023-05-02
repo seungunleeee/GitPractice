@@ -24,7 +24,7 @@
 #pragma comment(lib,"ws2_32.lib")
 #pragma comment(lib,"mswsock.lib")
 
-#define BUF_SIZE 4096
+#define BUF_SIZE 8192
 #define READ	3
 #define	WRITE	5
 #define ACCEPT  7
