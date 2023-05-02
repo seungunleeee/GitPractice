@@ -21,11 +21,10 @@
 #include <vector>
 #include <sstream>
 #include <list>
-
 #pragma comment(lib,"ws2_32.lib")
 #pragma comment(lib,"mswsock.lib")
 
-#define BUF_SIZE 1024
+#define BUF_SIZE 4096
 #define READ	3
 #define	WRITE	5
 #define ACCEPT  7
